@@ -9,9 +9,9 @@ const { google } = require("googleapis");
 const { OAuth2 } = google.auth;
 
 const oauth2Client = new OAuth2(
-  "645518468833-n717gm661pgi1rstp2veuctrnl0cmfte.apps.googleusercontent.com",
-  "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",
-  "http://127.0.0.1:5173/callback"
+  "************-n717gm***pgi1rstp2******nl0c****.apps.googleusercontent.com",
+  "GOCSPX-tKZk*****_******************",
+  "http://127.0.0.1:****/callback"
 );
 
 const nodemailer = require("nodemailer"); // Adding nodemailer to send a confirmation email
@@ -125,8 +125,8 @@ app.post("/api/orders", async (req, res) => {
         type: "OAuth2",
         user: "frimonreactdine@gmail.com",
         clientId:
-          "645518468833-n717gm661pgi1rstp2veuctrnl0cmfte.apps.googleusercontent.com",
-        clientSecret: "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",
+          "************-n717gm***pgi1rstp2******nl0c****.apps.googleusercontent.com",
+        clientSecret: "GOCSPX-tKZk*****_******************",
         refreshToken: refreshToken,
         accessToken: accessToken,
       },
