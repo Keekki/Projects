@@ -9,4 +9,6 @@ and it should boot itself back up. You'll know when it is up
 when the menu has loaded and a video starts playing in the background
 of the front page!)
 
+The commit history is visible in here: https://github.com/Keekki/ReactDiner
+
 URL to the page: https://delightful-sky-0dd9f7d03.4.azurestaticapps.net/
